@@ -356,6 +356,11 @@ body:after {
   bottom: 0;
   font-size: 1.2rem;
 }
+.team-mate-icon {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
 
 .team-mate:hover .social {
   transform: translateX(0%);
@@ -412,6 +417,25 @@ body:after {
   border-color: #000;
   color: #fff;
   box-shadow: none !important;
+}
+
+.filters .btn {
+  border-color: transparent;
+  font-size: 0.8rem;
+  padding: 8px 20px;
+  margin: 5px;
+  background: rgba(52, 58, 64, 0.05);
+  color: #343a40;
+}
+.filters .btn:hover {
+  border-color: transparent;
+  background: #007bff;
+  color: #fff;
+}
+.filters .btn:active {
+  background: #000 !important;
+  color: #fff;
+  border-color: #007bff !important;
 }
 
 .nav-row {
