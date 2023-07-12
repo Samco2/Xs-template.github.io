@@ -266,7 +266,7 @@ body:after {
 }
 
 .u-margin-bottom-small {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .u-margin-bottom-big {
@@ -309,6 +309,47 @@ body:after {
 
 .mg-4 {
   margin: 0 0.5rem;
+}
+
+.bg-bright {
+  background: rgba(243, 243, 243, 0.5);
+}
+
+.stretch {
+  align-items: stretch !important;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.mgr {
+  margin-right: 1.5rem;
+}
+
+.box {
+  box-sizing: border-box;
+}
+.box .box-icon span {
+  display: block;
+  font-size: 3rem;
+}
+.box h3 {
+  font-size: 20px;
+  color: #000;
+}
+.box p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+.icon--primary {
+  fill: #007bff !important;
 }
 
 .cta-big-image > .container {
@@ -509,6 +550,12 @@ body:after {
 .row .col-3-of-4 {
   width: calc(3 * (100% - 3 * 6rem) / 4 + (2* 6rem));
 }
+.row .col-1-of-5 {
+  width: calc((100% - 4 * 6rem) / 5);
+}
+.row .col-1-of-6 {
+  width: calc((100% - 5 * 6rem) / 6);
+}
 .row .col-1-of-12 {
   width: calc((100% - 18rem) / 12);
 }
@@ -516,8 +563,61 @@ body:after {
 .col {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+/* Isotope*/
+.item {
+  border: none;
+}
+
+.item .item-wrap {
+  display: block;
+  position: relative;
+}
+
+.item .item-wrap:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.item .item-wrap > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  font-size: 1.7rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease;
+}
+
+.item .item-wrap:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item .item-wrap:hover span {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.icon-search2:before {
+  content: "\e8b6";
 }
 
 .header {
