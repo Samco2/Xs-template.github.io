@@ -327,6 +327,10 @@ body:after {
   margin-right: 1.5rem;
 }
 
+.mgb {
+  margin-right: 1.5rem;
+}
+
 .box {
   box-sizing: border-box;
 }
@@ -343,6 +347,11 @@ body:after {
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
+.box p a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
 
 .icon {
   width: 4rem;
@@ -350,6 +359,47 @@ body:after {
 }
 .icon--primary {
   fill: #007bff !important;
+}
+.icon h3 {
+  font-size: 20px;
+  color: #000;
+}
+
+.pos2 {
+  display: absolute;
+  left: 4rem;
+}
+
+.icona {
+  width: 1.5rem;
+  height: 1rem;
+  padding-right: 0.5rem;
+}
+.icona--secondary {
+  fill: rgb(0, 175, 0) !important;
+}
+
+.mb-4 {
+  margin-bottom: 3rem !important;
+}
+
+.h5 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.pag {
+  line-height: 1.7;
+  color: #808080;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.order-lg-2 {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 .cta-big-image > .container {
@@ -459,6 +509,16 @@ body:after {
   color: #fff;
   box-shadow: none !important;
 }
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary :hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
 
 .filters .btn {
   border-color: transparent;
@@ -477,6 +537,34 @@ body:after {
   background: #000 !important;
   color: #fff;
   border-color: #007bff !important;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+}
+.card .price span {
+  color: #cccccc;
+}
+.card .price span span {
+  font-size: 3rem;
+  color: #007bff;
+}
+.card ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 50px;
+}
+.card ul li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.card p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .nav-row {
@@ -653,10 +741,10 @@ body:after {
   z-index: 1999;
   position: absolute;
   top: 0;
-  left: 14rem;
+  left: 0rem;
   width: 100%;
   border-bottom: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   align-items: center !important;
 }
 .navbar-logo {
