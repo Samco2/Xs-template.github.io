@@ -402,6 +402,35 @@ body:after {
   order: 2;
 }
 
+.mx-2 {
+  margin-left: 0.5rem !important;
+}
+
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+p a {
+  color: #007bff;
+  font-style: none;
+  text-decoration: none;
+}
+
+.mc {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.img-dim {
+  width: 29rem;
+  height: 29rem;
+}
+
 .cta-big-image > .container {
   position: relative;
 }
@@ -565,6 +594,28 @@ body:after {
 .card p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.h-entry img {
+  margin-bottom: 3rem;
+  vertical-align: middle;
+  border-style: none;
+}
+.h-entry h2 {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.h-entry h2 a {
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.h-entry .meta {
+  color: #b3b3b3;
+  font-size: 1.5rem;
 }
 
 .nav-row {
