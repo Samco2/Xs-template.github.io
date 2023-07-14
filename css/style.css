@@ -379,6 +379,11 @@ body:after {
   fill: rgb(0, 175, 0) !important;
 }
 
+.icon-w {
+  width: 2rem !important;
+  height: 3rem !important;
+}
+
 .mb-4 {
   margin-bottom: 3rem !important;
 }
@@ -429,6 +434,36 @@ p a {
 .img-dim {
   width: 29rem;
   height: 29rem;
+}
+
+.loc {
+  font-size: 1.5rem;
+  color: #007bff !important;
+  display: block !important;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.col-md-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+pt-3 {
+  padding-top: 3rem !important;
+}
+
+.style {
+  padding-left: 0;
+  list-style: none;
 }
 
 .cta-big-image > .container {
@@ -618,6 +653,173 @@ p a {
   font-size: 1.5rem;
 }
 
+.form {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem !important;
+  font-family: "Work Sans";
+}
+.form-label {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  box-shadow: border-box;
+}
+
+.form {
+  height: 3.4rem;
+  border-radius: 30px;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.form-group {
+  margin-bottom: 1rem;
+  height: 3rem;
+  width: 100%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  padding: 0 1rem;
+}
+.form-group:active, .form-group:focus {
+  border-color: #007bff;
+  outline-color: #007bff;
+}
+.form-group:hover, .form-group:active, .form-group:focus {
+  box-shadow: none !important;
+  border-color: 1px solid #007bff;
+}
+.form-mgs {
+  height: auto;
+  width: 100%;
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 0 2rem;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.form-mgs:active, .form-mgs:focus {
+  border-color: #007bff;
+  outline-color: #007bff;
+}
+.form-mgs:hover, .form-mgs:active, .form-mgs:focus {
+  box-shadow: none !important;
+  border-color: 1px solid #007bff;
+}
+.form-mgs:active, .form-mgs:focus {
+  border-color: #007bff;
+  outline-color: #007bff;
+}
+
+form.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group > .form-control:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group > .form-control {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+.form-control {
+  height: 43px;
+  border-radius: 30px;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.border-secondary {
+  border-color: #808080 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.input-group-append {
+  display: flex;
+}
+
+.input-group-append {
+  margin-left: -1px;
+}
+
+.footer {
+  padding: 8em 0;
+  background: #333333;
+}
+.footer .border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.footer p {
+  color: #737373;
+}
+.footer .footer-heading {
+  font-size: 16px;
+  color: #fff;
+}
+.footer h2,
+.footer h3,
+.footer h5 {
+  color: #fff;
+}
+.footer a {
+  color: #999999;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.footer ul li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.footer-subscribe .btn {
+  height: 43px;
+  line-height: 1;
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.input-group > .input-group-append > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .nav-row {
   display: flex;
   -ms-flex-wrap: wrap;
@@ -697,6 +899,14 @@ p a {
 }
 .row .col-1-of-12 {
   width: calc((100% - 18rem) / 12);
+}
+.row .col1 {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.row .col-2 {
+  width: cal(114rem/2);
 }
 
 .col {
