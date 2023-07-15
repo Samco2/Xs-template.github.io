@@ -273,6 +273,14 @@ body:after {
   margin-bottom: 8rem !important;
 }
 
+.d-flex {
+  display: flex !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
 .p3 {
   line-height: 1.7;
   color: #5c5577 !important;
@@ -667,6 +675,112 @@ pt-3 {
   box-shadow: border-box;
 }
 
+.slider-con {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.slider-con .wrapper {
+  width: 100%;
+  height: 85%;
+  animation: slide 15s ease infinite;
+}
+
+.slider-con .slider-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 100%);
+  height: 100%;
+}
+
+.slider-con #slider-1 {
+  text-align: center;
+}
+
+.slider-con .button-holder .dots {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.slider-con #slider-2 {
+  text-align: center;
+}
+
+.slider-con #slider-3 {
+  text-align: center;
+}
+
+.slider-con #slider-4 {
+  text-align: center;
+}
+
+.slider-con .button-holder {
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+}
+
+.slider-con .button-holder .dots {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #dee2e6;
+  margin: 4px 3px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-200%);
+  }
+  90% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+.testimonial {
+  max-width: 800px;
+  margin: 0 auto !important;
+  text-align: center;
+}
+.testimonial blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.testimonial figure img {
+  max-width: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
 .form {
   height: 3.4rem;
   border-radius: 30px;
@@ -876,6 +990,9 @@ form.col {
 .row .col-1-of-2 {
   width: calc((100% - 6rem) / 2);
 }
+.row .colw {
+  width: calc((100% - 6rem) + 6rem);
+}
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
@@ -1060,17 +1177,17 @@ form.col {
   display: block;
   font-family: Work Sans !important;
   color: #302f2f;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 500;
   padding: 0.5rem 1rem;
   text-decoration: none;
   font-family: "Work Sans" !important;
 }
-.navbar__menu__list-li a:focus, .navbar__menu__list-li a:active {
+.navbar__menu__list-li a:focus, .navbar__menu__list-li a:active, .navbar__menu__list-li a:hover, .navbar__menu__list-li a:focus-visible {
   outline: none;
   box-shadow: 0 1rem 2rem rgba #000, 0.1;
   border-bottom: 3px solid #278bf5;
-  color: #007bff;
+  color: #007bff !important;
 }
 .navbar__menu__list-li ul {
   display: none;
