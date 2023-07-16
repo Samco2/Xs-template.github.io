@@ -440,14 +440,18 @@ p a {
 }
 
 .img-dim {
-  width: 29rem;
-  height: 29rem;
+  width: 25rem;
+  height: 25rem;
 }
 
 .loc {
   font-size: 1.5rem;
   color: #007bff !important;
   display: block !important;
+}
+
+.mgl {
+  margin-left: 2rem;
 }
 
 .bg-white {
@@ -472,6 +476,17 @@ pt-3 {
 .style {
   padding-left: 0;
   list-style: none;
+}
+
+.abt-img {
+  flex-basis: 43%;
+  align-items: flex-start;
+  display: flex !important;
+  padding-right: 6rem;
+}
+
+.pd-r {
+  padding-right: 4rem;
 }
 
 .cta-big-image > .container {
@@ -541,7 +556,7 @@ pt-3 {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 98%;
   height: auto;
 }
 
@@ -992,6 +1007,9 @@ form.col {
 }
 .row .colw {
   width: calc((100% - 6rem) + 6rem);
+}
+.row .col-1-of-32 {
+  width: calc((100% - 4* 6rem) / 3.5);
 }
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
