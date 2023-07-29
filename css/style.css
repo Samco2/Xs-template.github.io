@@ -1129,7 +1129,7 @@ form.col {
 }
 .header-pos {
   position: relative;
-  top: 20rem;
+  top: 39rem;
 }
 /*------Nav bar-------*/
 .navbar {
@@ -1145,8 +1145,8 @@ form.col {
 }
 .navbar-logo {
   position: relative;
-  left: 2rem;
-  top: 5px;
+  left: -9rem;
+  top: -5px;
   font-family: Work Sans !important;
   font-size: 4.5rem;
   font-weight: 700 !important;
