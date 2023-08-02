@@ -21,6 +21,20 @@ ORDER: Base + typography > general layout + grid > page layout > components
   top: 0rem;
   align-items: center;
 }
+@media (max-width: 56.25em) {
+  .comp {
+    left: 13rem;
+    top: -4rem;
+    overflow-x: hidden;
+    width: 80%;
+  }
+}
+@media (max-width: 37.5em) {
+  .comp {
+    left: 10rem;
+    top: -5rem;
+  }
+}
 .comp__photo {
   width: 68%;
   border-radius: 0;
@@ -109,6 +123,16 @@ ORDER: Base + typography > general layout + grid > page layout > components
       z-index: 20;
   }*/
 }
+@media (max-width: 56.25em) {
+  .comp__photo {
+    float: None;
+  }
+}
+@media (max-width: 29em) {
+  .comp__photo {
+    float: None;
+  }
+}
 .comp__photo--p {
   left: 17rem;
   top: 10rem;
@@ -154,6 +178,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  overflow-x: hidden;
 }
 @media (max-width: 75em) {
   html {
@@ -163,6 +188,11 @@ html {
 @media (max-width: 56.25em) {
   html {
     font-size: 50%;
+  }
+}
+@media (max-width: 29em) {
+  html {
+    font-size: 35%;
   }
 }
 @media (min-width: 112.5em) {
@@ -180,7 +210,7 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   box-sizing: border-box;
 }
 @media (max-width: 56.25em) {
@@ -206,7 +236,6 @@ body {
   line-height: 1.7;
   color: #808080;
   font-weight: 400;
-  font-size: 1rem;
 }
 
 ::selection {
@@ -307,7 +336,12 @@ body:after {
 }
 
 .site-pad {
-  padding: 5em 0;
+  padding: 3em 0;
+}
+@media (max-width: 56.25em) {
+  .site-pad {
+    padding: 0em 0;
+  }
 }
 
 .lead {
@@ -695,6 +729,22 @@ pt-3 {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  overflow: hidden;
+}
+@media (max-width: 75em) {
+  .slider-con {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 56.25em) {
+  .slider-con {
+    padding: 0 16px;
+  }
+}
+@media (max-width: 29em) {
+  .slider-con {
+    padding: 0 15px;
+  }
 }
 
 .slider-con .wrapper {
@@ -976,8 +1026,8 @@ form.col {
 }
 @media (max-width: 56.25em) {
   .row {
-    max-width: 50rem;
-    padding: 0 3rem;
+    max-width: 90rem;
+    padding: 0 1rem;
   }
 }
 .row::after {
@@ -1046,7 +1096,7 @@ form.col {
 
 .col {
   position: relative;
-  width: 100%;
+  width: 95%;
   padding-right: 32px;
   padding-left: 32px;
 }
@@ -1129,7 +1179,7 @@ form.col {
 }
 .header-pos {
   position: relative;
-  top: 39rem;
+  top: 20rem;
 }
 /*------Nav bar-------*/
 .navbar {
@@ -1145,13 +1195,18 @@ form.col {
 }
 .navbar-logo {
   position: relative;
-  left: -9rem;
-  top: -5px;
+  left: 2rem;
+  top: 5px;
   font-family: Work Sans !important;
   font-size: 4.5rem;
   font-weight: 700 !important;
   margin-bottom: 0 !important;
   float: right;
+}
+@media (max-width: 75em) {
+  .navbar-logo {
+    display: none;
+  }
 }
 .navbar-logo a {
   color: #007bff !important;
@@ -1168,7 +1223,7 @@ form.col {
   font-weight: 400;
   font-size: 2rem;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .navbar__menu {
     display: none;
   }
