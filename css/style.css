@@ -287,7 +287,7 @@ body:after {
 }
 
 .u-center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .mb-1 {
@@ -326,7 +326,7 @@ body:after {
   margin-bottom: 15px;
   line-height: 1.5;
   list-style: none;
-  text-align: left !important;
+  text-align: left;
   font-size: 1.6rem;
   color: rgb(161, 159, 159);
 }
@@ -517,6 +517,11 @@ pt-3 {
   align-items: flex-start;
   display: flex !important;
   padding-right: 6rem;
+}
+@media (max-width: 56.25em) {
+  .abt-img {
+    flex-basis: None;
+  }
 }
 
 .pd-r {
@@ -729,7 +734,8 @@ pt-3 {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
+  height: auto;
 }
 @media (max-width: 75em) {
   .slider-con {
@@ -832,7 +838,7 @@ pt-3 {
   }
 }
 .testimonial {
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto !important;
   text-align: center;
 }
@@ -1028,6 +1034,7 @@ form.col {
   .row {
     max-width: 90rem;
     padding: 0 1rem;
+    display: block;
   }
 }
 .row::after {
