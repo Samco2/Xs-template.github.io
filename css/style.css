@@ -305,6 +305,11 @@ body:after {
 .d-flex {
   display: flex !important;
 }
+@media (max-width: 56.25em) {
+  .d-flex {
+    display: block !important;
+  }
+}
 
 .w-50 {
   width: 50% !important;
@@ -577,6 +582,12 @@ pt-3 {
   width: 22px;
   height: 22px;
   color: #fff;
+}
+@media (max-width: 56.25em) {
+  .team-mate-icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 .team-mate:hover .social {
@@ -1103,9 +1114,14 @@ form.col {
 
 .col {
   position: relative;
-  width: 95%;
+  width: 100%;
   padding-right: 32px;
   padding-left: 32px;
+}
+@media (max-width: 56.25em) {
+  .col {
+    width: 80%;
+  }
 }
 
 /* Isotope*/
@@ -1176,6 +1192,16 @@ form.col {
   z-index: 1;
   transition-property: opacity, transform;
 }
+@media (max-width: 56.25em) {
+  .header {
+    height: 90vh;
+  }
+}
+@media (max-width: 29em) {
+  .header {
+    height: 60vh;
+  }
+}
 .header-line {
   font-size: 3rem;
   font-weight: 400;
@@ -1186,7 +1212,12 @@ form.col {
 }
 .header-pos {
   position: relative;
-  top: 20rem;
+  top: 33rem;
+}
+@media (max-width: 56.25em) {
+  .header-pos {
+    top: 39rem;
+  }
 }
 /*------Nav bar-------*/
 .navbar {
@@ -1202,8 +1233,8 @@ form.col {
 }
 .navbar-logo {
   position: relative;
-  left: 2rem;
-  top: 5px;
+  left: -10rem;
+  top: -7px;
   font-family: Work Sans !important;
   font-size: 4.5rem;
   font-weight: 700 !important;
@@ -1212,7 +1243,8 @@ form.col {
 }
 @media (max-width: 75em) {
   .navbar-logo {
-    display: none;
+    left: 0rem;
+    float: none;
   }
 }
 .navbar-logo a {
