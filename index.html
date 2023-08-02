@@ -21,7 +21,7 @@
     <header class="navbar dim" role="banner">
         <div class="container">
             <div class="row nav-row align">
-                <div class="col-1-of-4 ">
+                <div class="col-1-of-4">
                     <h1 class="navbar-logo"><a href="index.html" class="">x<sub>s</a></h1>
                 </div>
                 <div class="col-3-of-4">
@@ -55,8 +55,8 @@
                                 </li>-->
                             </ul>
                         </li>
-                        <li class="navbar__menu__list-li"><a href="#portfolio-section" class="nav-link">Portfolio</a>
-                        </li>
+                        <!--<li class="navbar__menu__list-li"><a href="#portfolio-section" class="nav-link">Portfolio</a>
+                        </li>-->
                         <li class="navbar__menu__list-li"><a href="#services-section" class="nav-link">Services</a></li>
                         <li class="navbar__menu__list-li"><a href="#testimonials-section"
                                 class="nav-link">Testimonials</a></li>
@@ -67,7 +67,49 @@
 
                 </div>
             </div>
+            <nav id="sideNav">
+                <ul>
+                    <li><a href="#home-section">Home</a></li>
+                    <li>
+                        <a href="#about_section">About Us
+                            <!-- <span class="icona icona--secondary">
+                                    <svg class="icona icona--secondary">
+                                        <use xlink:href="img/sprite.svg#chevron-down-solid"></use>
+                                    </svg>
+                                </span>-->
+                        </a>
+                        <!--<ul class="">
+                                <li ><a href="#team-section">Team</a></li>
+                                <li ><a href="#pricing-section">Pricing</a>
+                                </li>
+                                <li><a href="#faq-section">FAQ</a></li>
+                                <li  -sub class="has-children">
+                                    <a href="#">More Links <span class="icona icona--secondary">
+                                    <svg class="icona icona--secondary">
+                                        <use xlink:href="img/sprite.svg#chevron-right-solid"></use>
+                                    </svg>
+                                </span></a>
+                                    <ul class="">
+                                        <li  -sub><a href="#">Menu One</a></li>
+                                        <li  -sub><a href="#">Menu Two</a></li>
+                                        <li  -sub><a href="#">Menu Three</a></li>
+                                    </ul>
+                                </li>
+                            </ul>-->
+                    </li>
+                    <li><a href="#team-section">Team</a></li>
+                    <li><a href="#pricing-section">Pricing</a></li>
+                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                    <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                    <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="" id="menuBtn">
+
+
         </div>
+
     </header>
 
     <div class="header" id="home">
@@ -1194,6 +1236,22 @@
             </div>
         </div>
     </footer>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+    </script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
